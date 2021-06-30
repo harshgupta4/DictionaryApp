@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: Akaya + Kanadaka, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1152px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  background: burlywood;
+  color: crimson;
+  padding: 1rem 0;
+}
