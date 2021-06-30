@@ -4,11 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  webkit-font-smoothing: antialiased;
+  /* webkit-font-smoothing: antialiased; */
 }
 
 body {
-  font-family: Akaya + Kanadaka, sans-serif;
+  font-family: "Akaya Kanadaka", cursive, sans-serif;
   min-height: 100vh;
 }
 
@@ -22,4 +22,42 @@ nav {
   background: burlywood;
   color: crimson;
   padding: 1rem 0;
+}
+
+section.input {
+  padding-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.form_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.input_wrap {
+  display: flex;
+  align-items: center;
+  border: 1px solid burlywood;
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  min-width: 400px;
+  outline: none;
+}
+
+button {
+  background: burlywood;
+  color: crimson;
+  height: 100%;
+  font-size: 16px;
+  padding: 0 20px;
+  cursor: pointer;
 }
